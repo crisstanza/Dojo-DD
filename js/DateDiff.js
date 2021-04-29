@@ -6,7 +6,14 @@ DateDiff.diff = function(date1Str, date2Str) {
 	// TODO: implementar!!!
 	let parsed1 = date1Str.split('/');
 	let parsed2 = date2Str.split('/');
-	return {months: parseInt(date2Str.split('/')[1]) - parseInt(date1Str.split('/')[1])};
+
+	let month1 = parsed1[1];
+	let month2 = parsed2[1];
+
+	let day1 = parsed1[0];
+	let day2 = parsed2[0];
+
+	return {months: parseInt(parsed2[1]) - parseInt(parsed1[1])};
 	//return { years: 3, months: 2, days: 1, hours: 4, minutes: 5 };
 };
 

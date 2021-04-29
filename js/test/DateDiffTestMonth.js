@@ -10,6 +10,7 @@ DateDiffTestMonth.testData = function() {
 	testData.push(['29/04/2021 16:00', '29/09/2021 16:00', 5]);
 	testData.push(['01/01/2021 16:00', '01/02/2021 16:00', 1]);
 	testData.push(['01/09/2021 16:00', '01/10/2021 16:00', 1]);
+	testData.push(['15/09/2021 16:00', '01/10/2021 16:00', 0]);
 
 	return testData;
 };
