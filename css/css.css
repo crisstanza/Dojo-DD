@@ -1,0 +1,6 @@
+#display {
+	font-family: monospace;
+}
+
+span.success { color: blue; }
+span.error { color: red; }
