@@ -7,7 +7,9 @@ function DateDiffTestMonth(input1, input2, expected) {
 DateDiffTestMonth.testData = function() {
 	let testData = [];
 
-	testData.push(['29/04/2021 16:00', '29/10/2021 16:00', 6]);
+	testData.push(['29/04/2021 16:00', '29/09/2021 16:00', 5]);
+	testData.push(['01/01/2021 16:00', '01/02/2021 16:00', 1]);
+	testData.push(['01/09/2021 16:00', '01/10/2021 16:00', 1]);
 
 	return testData;
 };
